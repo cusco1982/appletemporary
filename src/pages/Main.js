@@ -4,6 +4,8 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import DemoCarousel from "./DemoCarousel.js";
+import img2 from "./photos/pexels2.jpeg";
+import img3 from "./photos/cranes.jpeg";
 
 
 import "./Main.css";
