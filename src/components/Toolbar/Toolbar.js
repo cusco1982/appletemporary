@@ -3,20 +3,15 @@ import React from 'react';
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import './Toolbar.css';
 
-import skyline from "./skyline.png"
+
 
 const toolbar = props => (
-  // <header className="toolbar">
+
     <nav className="toolbar">
 
 
 
         <div className="logo"><a href="/">WJ Best Insulation</a></div>
-        {/* <br/> */}
-
-        <div>
-        <img style={{height:"206px",width:"690px"}} src={skyline} alt="skyline"/>
-        </div>
 
 
         <div className="nav-links">
@@ -37,7 +32,7 @@ const toolbar = props => (
         </div>
 
     </nav>
-  // </header>
+
 );
 
 export default toolbar;
