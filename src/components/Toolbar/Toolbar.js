@@ -17,12 +17,14 @@ const toolbar = props => (
         <div className="nav-links">
             <ul>
                 <li><a href="/">Main</a></li>
+
                 <li><a href="/services">Services</a></li>
+                
                 <li><a href="/projects">Projects</a></li>
-                <li><a href="/projects2">Projects2</a></li>
-                <li><a href="/contact">Contact</a></li>
-                <li><a href="/DemoCarousel">DemoCarousel</a></li>
-                <li><a href="/New">New</a></li>
+                
+                <li><a href="/contact">Contact Us</a></li>
+
+
 
             </ul>
         </div>

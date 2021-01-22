@@ -23,23 +23,58 @@ class Main extends Component {
       <div>
 
 
+        <div className="jumbotron" style={{ background: "blue", height: "60vh" }}>
 
-        <div className="one" style={{ background: "red" }}>
-          hello
+          jumbotron
+          
         </div>
 
 
 
+        <br />
+        <br />
 
-        <div className="two" style={{ background: "yellow" }}>
+
+        {/* ------------------------------------------------------------------------------------------------------------------------------------------------------ */}
+
+
+        <div className="one" style={{ background: "red", height: "80vh" }}>
+
+
+          <div style={{ outline: "5px solid black", height: "50%" }}>
+            hello
+          </div>
+
+
+
+
+
+          <div style={{ outline: "5px solid blue", height: "50%" }}>
+            hello
+          </div>
+
+        </div>
+
+        {/* ------------------------------------------------------------------------------------------------------------------------------------------------------ */}
+
+        <br />
+        <br />
+
+
+        <div className="two" style={{ background: "yellow", height: "30vh" }}>
           two
-  
+
         </div>
 
 
 
+        {/* ------------------------------------------------------------------------------------------------------------------------------------------------------ */}
 
-        <div className="three" style={{ background: "blue" }}>
+        <br />
+        <br />
+
+
+        <div className="three" style={{ background: "blue", height: "30vh" }}>
 
           three
         </div>
