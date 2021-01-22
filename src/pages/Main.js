@@ -24,42 +24,101 @@ class Main extends Component {
 
       <div>
 
+        <Container>
+
+
+
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="50000">
+
+
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            {/* -------------------------------------------- */}
+
+
+
+            {/* -------------------------------------------- */}
+            <div class="carousel-inner">
+
+
+
+              <div class="carousel-item active">
+
+                <img class="d-block w-100" src={img2} alt="First slide" />
+
+
+                <div class="carousel-caption d-none d-md-block" style={{ position: "absolute", left: "0", top: "0", right: "60%" }}>
+
+                  <br />
+                  <br />
+
+                  <h2 className="date">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        {months[d.getMonth()]} {d.getFullYear()}
+                  </h2>
+
+                  <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+
+                  <p>
+                    <a href="/projects" style={{ textAlign: "center", borderRadius: "25px", border: "2px solid white", padding: "20px", width: "200px", height: "75px", marginRight: "25%" }}>
+                      VIEW PROJECT
+        </a>
+                  </p>
+
+                  <br /> <br /> <br />
+
+                  <p>
+                    <a href="/services" style={{ textAlign: "center", borderRadius: "25px", border: "2px solid white", padding: "20px", width: "200px", height: "75px", marginRight: "25%" }}>
+                      VIEW SERVICES
+        </a>
+                  </p>
+
+                </div>
+
+              </div>
+
+
+
+              <div class="carousel-item" >
+                <img class="d-block w-100" src={img2} alt="Second slide" />
+              </div>
+
+
+
+              <div class="carousel-item">
+                <img class="d-block w-100" src={img3} alt="Third slide" />
+              </div>
+
+            </div>
+            {/* -------------------------------------------- */}
+
+
+            {/* -------------------------------------------- */}
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+
+
+          </div>
 
 
 
 
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src={img2} class="d-block w-100" alt="img2"/>
-    </div>
-    <div class="carousel-item">
-      <img src={img2} class="d-block w-100" alt="..."/>
-    </div>
-    <div class="carousel-item">
-      <img src={img3} class="d-block w-100" alt="..."/>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </a>
-</div>
+        </Container>
 
 
 
 
-        
-        
+
         <br />
         <br />
         {/* ------------------------------------------------------------------------------------------------------------------------------------------------------ */}
