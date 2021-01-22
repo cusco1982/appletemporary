@@ -25,9 +25,6 @@ class App extends Component {
 
           <Toolbar/>
 
-          <br/>
-          <br/>
-
 
           <Route exact path="/" component={Main} />
 
