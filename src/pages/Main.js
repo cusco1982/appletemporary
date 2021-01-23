@@ -34,7 +34,7 @@ class Main extends Component {
             <ul style={{ display: "inline-block", width: "20%", paddingTop: "12px" }}>SERVICES</ul>
             <ul style={{ display: "inline-block", width: "20%" }}>OUR WORK</ul>
             <ul style={{ display: "inline-block", width: "20%" }}>SERVICES</ul>
-            <ul style={{ display: "inline-block", width: "20%" }}>SERVICES</ul>
+            <ul style={{ display: "inline-block", width: "20%" }}>CONTACT US</ul>
           </li>
 
         </div>
@@ -143,15 +143,28 @@ class Main extends Component {
 
 
             <div style={{ background: "green", width: "33.33%", height: "100%", float: "left" }}>
-              Mechanical Insulation
+
+              <h1 style={{ textAlign: "center" }}>
+                Mechanical Insulation
+            </h1>
+
             </div>
 
             <div style={{ background: "yellow", width: "33.34%", height: "100%", float: "left" }}>
-              Steam Piping Systems
+
+              <h1 style={{ textAlign: "center" }}>
+                Steam Piping Systems
+              </h1>
+
             </div>
 
             <div style={{ background: "white", width: "33.33%", height: "100%", float: "left" }}>
-              Chilled Water Systems
+
+
+              <h1 style={{ textAlign: "center" }}>
+                Chilled Water Systems
+              </h1>
+
             </div>
 
 
@@ -170,15 +183,28 @@ class Main extends Component {
 
 
             <div style={{ background: "black", width: "33.33%", height: "100%", float: "left" }}>
-              Hot and Cold Water Piping
+
+              <h1 style={{ textAlign: "center" }}>
+                Hot and Cold Water Piping
+              </h1>
+
+
             </div>
 
             <div style={{ background: "white", width: "33.34%", height: "100%", float: "left" }}>
-              Pump Boxes
+
+              <h1 style={{ textAlign: "center" }}>
+                Pump Boxes
+              </h1>
+
             </div>
 
             <div style={{ background: "black", width: "33.33%", height: "100%", float: "left" }}>
-              Boiler Systems
+
+              <h1 style={{ textAlign: "center" }}>
+                Boiler Systems
+              </h1>
+
             </div>
 
 
