@@ -23,12 +23,12 @@ class App extends Component {
 
         <div>
 
-          <Toolbar/>
+          <Toolbar />
 
 
           <Route exact path="/" component={Main} />
 
-          <Footer/>
+          <Footer />
 
         </div>
 

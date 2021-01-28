@@ -122,7 +122,24 @@ class Main extends Component {
 
 
 
-        <div style={{ height: "13vh", background: "black" }}>
+        <div style={{ height: "13vh", background: "black", color: "white" }}>
+
+          <div style={{ display: "inline-block", width: "25%" }}>
+            (732) 423 - 9671
+          </div>
+
+
+          <div style={{ display: "inline-block", width: "25%" }}>
+            WJBestInsulation@gmail.com
+          </div>
+
+          <div style={{ display: "inline-block", width: "25%" }}>
+            Mon-Sat 8:00 AM - 5:00 PM
+          </div>
+
+          <div style={{ display: "inline-block", width: "25%" }}>
+            Edison, NJ 08837
+          </div>
 
         </div>
 
