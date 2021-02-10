@@ -125,10 +125,12 @@ class Main extends Component {
 
 
 
-
+        <div style={{ background: "black", height: "5vh" }}>
+          hello
+        </div>
 
         {/* ------------------------------------------------  SERVICES IMAGE GRID  ---------------------------------------------------------------------------------------------- */}
-        <div style={{ height: "15vh", color: "white"}}>
+        <div style={{ height: "15vh", color: "white", outline: "5px solid black" }}>
 
           <div style={{ display: "inline-block", width: "33.3%", height: "100%", background: "black" }}>
             <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
@@ -139,7 +141,6 @@ class Main extends Component {
               </p>
             </div>
           </div>
-
           <div style={{ display: "inline-block", width: "33.3%", height: "100%", background: "black" }}>
             <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
             <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
@@ -149,7 +150,6 @@ class Main extends Component {
               </p>
             </div>
           </div>
-
           <div style={{ display: "inline-block", width: "33.3%", height: "100%", background: "black" }}>
             <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
             <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
@@ -159,14 +159,11 @@ class Main extends Component {
               </p>
             </div>
           </div>
-
         </div>
 
         {/* -----------------------------------------------------------------VVV  2ND ROW  VVV------------------------------------------------------------------------------------- */}
 
-
-        <div style={{ height: "15vh", color: "white"}}>
-
+        <div style={{ height: "15vh", color: "white", outline: "5px solid black" }}>
           <div style={{ display: "inline-block", width: "33.3%", height: "100%", background: "black" }}>
             <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
             <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
@@ -198,6 +195,9 @@ class Main extends Component {
         </div>
         {/* ------------------------------------------------------------------------------------------------------------------------------------------------------ */}
 
+        <div style={{ background: "black", height: "5vh" }}>
+          hello
+        </div>
 
 
 
