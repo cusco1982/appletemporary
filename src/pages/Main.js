@@ -9,6 +9,10 @@ import Col from "../components/Col";
 import img2 from "./photos/pexels2.jpeg";
 import img3 from "./photos/cranes.jpeg";
 import img1 from "./photos/pexels.jpeg";
+import phone from "./photos/phone.png";
+import insulationmask from "./photos/insulationmask.png"
+
+
 
 
 import "./Main.css";
@@ -23,9 +27,6 @@ class Main extends Component {
     return (
 
       <div>
-
-
-
 
 
         <div style={{ height: "6vh", background: "black" }}>
@@ -119,29 +120,85 @@ class Main extends Component {
         </div>
 
 
+        <br />
 
 
 
-        <div style={{ height: "13vh", background: "black", color: "white" }}>
 
-          <div style={{ display: "inline-block", width: "25%" }}>
-            (732) 423 - 9671
+
+
+        {/* ------------------------------------------------  SERVICES IMAGE GRID  ---------------------------------------------------------------------------------------------- */}
+        <div style={{ height: "15vh", color: "black", outline: "5px solid black" }}>
+
+          <div style={{ display: "inline-block", width: "33.3%", height: "100%", background: "yellow" }}>
+            <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
+            <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
+              <h2>Insulation</h2>
+              <p style={{ width: "80%", fontSize: "125%" }}>
+                Asbestos, lead, and mold abatement and remediation services.
+              </p>
+            </div>
           </div>
 
-
-          <div style={{ display: "inline-block", width: "25%" }}>
-            WJBestInsulation@gmail.com
+          <div style={{ display: "inline-block", width: "33.3%", height: "100%", background: "blue" }}>
+            <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
+            <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
+              <h2>Insulation</h2>
+              <p style={{ width: "80%", fontSize: "125%" }}>
+                Asbestos, lead, and mold abatement and remediation services.
+              </p>
+            </div>
           </div>
 
-          <div style={{ display: "inline-block", width: "25%" }}>
-            Mon-Sat 8:00 AM - 5:00 PM
-          </div>
-
-          <div style={{ display: "inline-block", width: "25%" }}>
-            Edison, NJ 08837
+          <div style={{ display: "inline-block", width: "33.3%", height: "100%", background: "white" }}>
+            <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
+            <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
+              <h2>Insulation</h2>
+              <p style={{ width: "80%", fontSize: "125%" }}>
+                Asbestos, lead, and mold abatement and remediation services.
+              </p>
+            </div>
           </div>
 
         </div>
+
+        {/* -----------------------------------------------------------------VVV  2ND ROW  VVV------------------------------------------------------------------------------------- */}
+
+
+        <div style={{ height: "15vh", color: "black", outline: "5px solid black" }}>
+
+          <div style={{ display: "inline-block", width: "33.3%", height: "100%", background: "yellow" }}>
+            <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
+            <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
+              <h2>Demolition</h2>
+              <p style={{ width: "80%", fontSize: "125%" }}>
+                Asbestos, lead, and mold abatement and remediation services.
+              </p>
+            </div>
+          </div>
+          <div style={{ display: "inline-block", width: "33.3%", height: "100%", background: "blue" }}>
+            <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
+            <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
+              <h2>Carting</h2>
+              <p style={{ width: "80%", fontSize: "125%" }}>
+                Asbestos, lead, and mold abatement and remediation services.
+              </p>
+            </div>
+          </div>
+          <div style={{ display: "inline-block", width: "33.3%", height: "100%", background: "white" }}>
+            <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
+            <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
+              <h2>Consulting</h2>
+              <p style={{ width: "80%", fontSize: "125%" }}>
+                Asbestos, lead, and mold abatement and remediation services.
+              </p>
+            </div>
+          </div>
+
+        </div>
+        {/* ------------------------------------------------------------------------------------------------------------------------------------------------------ */}
+
+
 
 
 
