@@ -141,78 +141,76 @@ class Main extends Component {
 
         <div style={{ background: "#191a1c" }}>
 
-          <div style={{ background: "#191a1c", height: "7vh" }}></div>
+          <div style={{ background: "#191a1c", height: "8vh" }}></div>
 
           <div style={{ height: "15vh", color: "whitesmoke", justifyContent: "center", display: "flex" }}>
-
-            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
+            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "purple"}}>
               <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
               <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
-                <h2>Abatement</h2>
-                <p style={{ width: "80%", fontSize: "125%", paddingTop:"10px" }}>
+                <h2 style={{paddingLeft:"10px"}}>Abatement</h2>
+                <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px"}}>
                   Asbestos, lead, and mold abatement and remediation services.
-              </p>
+                </p>
               </div>
             </div>
 
-            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
+            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "green" }}>
               <img style={{ width: "20%", display: "inline-block" }} src={insulation} />
               <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
-                <h2>Construction</h2>
-                <p style={{ width: "80%", fontSize: "125%", paddingTop:"10px" }}>
+                <h2 style={{ paddingLeft: "10px" }}>Construction</h2>
+                <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px"}}>
                   Asbestos, lead, and mold abatement and remediation services.
-              </p>
+                </p>
               </div>
             </div>
 
-            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
+            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "blue" }}>
               <img style={{ width: "20%", display: "inline-block" }} src={consulting} />
               <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
-                <h2>Insulation</h2>
-                <p style={{ width: "80%", fontSize: "125%", paddingTop:"10px" }}>
+                <h2 style={{paddingLeft:"10px"}}>Insulation</h2>
+                <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
                   Asbestos, lead, and mold abatement and remediation services.
-              </p>
+                </p>
               </div>
             </div>
-            
           </div>
-
-
 
           <div style={{ background: "#191a1c", height: "2vh" }}></div>
           {/* -----------------------------------------------------------------VVV  2ND ROW  VVV------------------------------------------------------------------------------------- */}
 
           <div style={{ height: "15vh", color: "whitesmoke", justifyContent: "center", display: "flex" }}>
-            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
+
+            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "green" }}>
               <img style={{ width: "20%", display: "inline-block" }} src={safety} />
               <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
-                <h2>Demolition</h2>
-                <p style={{ width: "80%", fontSize: "125%", paddingTop:"10px" }}>
+                <h2 style={{paddingLeft:"10px"}}>Demolition</h2>
+                <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
                   Asbestos, lead, and mold abatement and remediation services.
               </p>
               </div>
             </div>
-            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
+            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "orange" }}>
               <img style={{ width: "20%", display: "inline-block" }} src={truck} />
               <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
-                <h2>Carting</h2>
-                <p style={{ width: "80%", fontSize: "125%", paddingTop:"10px" }}>
+                <h2 style={{paddingLeft:"10px"}}>Carting</h2>
+                <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
                   Asbestos, lead, and mold abatement and remediation services.
               </p>
               </div>
             </div>
-            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
+            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "purple" }}>
               <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
               <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
-                <h2>Consulting</h2>
-                <p style={{ width: "80%", fontSize: "125%", paddingTop:"10px" }}>
+                <h2 style={{paddingLeft:"10px"}}>Consulting</h2>
+                <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
                   Asbestos, lead, and mold abatement and remediation services.
               </p>
               </div>
             </div>
+
           </div>
 
-          <div style={{ background: "#191a1c", height: "7vh" }}></div>
+          <div style={{ background: "#191a1c", height: "8vh" }}></div>
 
         </div>
 
