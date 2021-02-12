@@ -138,13 +138,12 @@ class Main extends Component {
 
 
         {/* ------------------------------------------------  SERVICES IMAGE GRID  ---------------------------------------------------------------------------------------------- */}
-
         <div style={{ background: "#191a1c" }}>
 
           <div style={{ background: "#191a1c", height: "8vh" }}></div>
 
           <div style={{ height: "15vh", color: "whitesmoke", justifyContent: "center", display: "flex" }}>
-            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "purple"}}>
+            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c"}}>
               <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
               <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
                 <h2 style={{paddingLeft:"10px"}}>Abatement</h2>
@@ -154,7 +153,7 @@ class Main extends Component {
               </div>
             </div>
 
-            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "green" }}>
+            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
               <img style={{ width: "20%", display: "inline-block" }} src={insulation} />
               <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
                 <h2 style={{ paddingLeft: "10px" }}>Construction</h2>
@@ -164,7 +163,7 @@ class Main extends Component {
               </div>
             </div>
 
-            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "blue" }}>
+            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
               <img style={{ width: "20%", display: "inline-block" }} src={consulting} />
               <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
                 <h2 style={{paddingLeft:"10px"}}>Insulation</h2>
@@ -180,7 +179,7 @@ class Main extends Component {
 
           <div style={{ height: "15vh", color: "whitesmoke", justifyContent: "center", display: "flex" }}>
 
-            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "green" }}>
+            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
               <img style={{ width: "20%", display: "inline-block" }} src={safety} />
               <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
                 <h2 style={{paddingLeft:"10px"}}>Demolition</h2>
@@ -189,7 +188,7 @@ class Main extends Component {
               </p>
               </div>
             </div>
-            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "orange" }}>
+            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
               <img style={{ width: "20%", display: "inline-block" }} src={truck} />
               <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
                 <h2 style={{paddingLeft:"10px"}}>Carting</h2>
@@ -198,7 +197,7 @@ class Main extends Component {
               </p>
               </div>
             </div>
-            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "purple" }}>
+            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
               <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
               <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
                 <h2 style={{paddingLeft:"10px"}}>Consulting</h2>
@@ -213,8 +212,6 @@ class Main extends Component {
           <div style={{ background: "#191a1c", height: "8vh" }}></div>
 
         </div>
-
-
         {/* ------------------------------------------------------------------------------------------------------------------------------------------------------ */}
 
 
