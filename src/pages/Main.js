@@ -536,18 +536,20 @@ class Main extends Component {
         <div>
 
 
-          <div style={{ background: "red", width: "33%", textAlign: "center" }}>
+          <div style={{ background: "green", width: "33%", textAlign: "center" }}>
             <div>
               CALL US
             </div>
 
-            <div style={{ width: "5%", marginLeft:"47%" }}>
+            <div style={{ width: "5%", marginLeft: "47%" }}>
               <hr style={{ color: "rgba(31,37,38,.15)", backgroundColor: "rgba(31,37,38,.15)", height: "2px", marginTop: "32px", marginBottom: "32px", borderWidth: 0, borderStyle: "none", boxSizing: "content-box" }} />
             </div>
 
             <div>
-              P: (718) 326-0125
-              F: (718) 326-3958
+              P: (732) 423-9671
+            </div>
+            <div>
+              F: (111) 222-3333
             </div>
           </div>
 
@@ -556,16 +558,15 @@ class Main extends Component {
 
           <div style={{ background: "white", width: "33.4%", textAlign: "center" }}>
             <div>
-              CALL US
+              EMAIL US
             </div>
 
-            <div style={{ width: "5%", marginLeft:"47%" }}>
+            <div style={{ width: "5%", marginLeft: "47%" }}>
               <hr style={{ color: "rgba(31,37,38,.15)", backgroundColor: "rgba(31,37,38,.15)", height: "2px", marginTop: "32px", marginBottom: "32px", borderWidth: 0, borderStyle: "none", boxSizing: "content-box" }} />
             </div>
 
             <div>
-              P: (718) 326-0125
-              F: (718) 326-3958
+              WJBestInsulation@gmail.com
             </div>
           </div>
 
@@ -574,17 +575,20 @@ class Main extends Component {
 
           <div style={{ background: "orange", width: "33%", textAlign: "center" }}>
             <div>
-              CALL US
+              VISIT US
             </div>
 
-            <div style={{ width: "5%", marginLeft:"47%" }}>
+            <div style={{ width: "5%", marginLeft: "47%" }}>
               <hr style={{ color: "rgba(31,37,38,.15)", backgroundColor: "rgba(31,37,38,.15)", height: "2px", marginTop: "32px", marginBottom: "32px", borderWidth: 0, borderStyle: "none", boxSizing: "content-box" }} />
             </div>
 
             <div>
-              P: (718) 326-0125
-              F: (718) 326-3958
+              2 NORA RD
             </div>
+            <div>
+              EDISON, NJ 08837
+            </div>
+
           </div>
 
 
