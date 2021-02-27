@@ -139,8 +139,11 @@ class Main extends Component {
 
 
         {/* --------------------------------------------------------------------    QUOTE    ------------------------------------------------------------------------ */}
+
         <br />
         <br />
+
+
 
         <div className="contact" style={{ background: "white", color: "black" }}>
 
@@ -150,7 +153,6 @@ class Main extends Component {
 
 
             <div>
-
               Need a FREE quote? Click here!
             </div>
 
@@ -316,7 +318,7 @@ class Main extends Component {
 
         </div>
 
-        {/* -----------------------------------------------------------------   FOOTER   ----------------------------------------------------------------------- */}
+        {/* -----------------------------------------------------------------   FOOTER but not footer  ----------------------------------------------------------------------- */}
         <br />
         <br />
 
@@ -414,10 +416,184 @@ class Main extends Component {
 
 
 
+
+
+
+        </div>
+
+
+        <br />
+        <br />
+        <br />
+        <br />
+
+
+
+
+
+        {/* ------------------------------------------------------------   ADD THIS TO FOOTER COMPONENT ------------------------------------------------------------------- */}
+
+
+
+
+
+
+
+
+        <div className="projects" style={{ height: "30vh", width: "100%", color: "white", textAlign: "center" }}>
+
+
+
+
+
+          <div style={{ display: "inline-block", width: "33.3%", background: "black" }}>
+
+
+            <div>
+              CALL US
+            </div>
+
+
+
+            <br />
+            <br />
+            <br />
+
+
+            <div>
+              P: (732) 423-9671
+            </div>
+            <div>
+              F: (111) 111-1111
+            </div>
+
+
+          </div>
+
+
+
+
+
+          <div style={{ display: "inline-block", width: "33.4%", background: "red" }}>
+
+
+            <div>
+              EMAIL US
+            </div>
+
+
+            <br />
+            <br />
+            <div style={{ fontSize: "200%" }}>
+              WJBestInsulation@gmail.com
+            </div>
+
+          </div>
+
+
+
+
+          <div style={{ display: "inline-block", width: "33.3%", background: "blue" }}>
+
+
+            <div>
+              VISIT US
+            </div>
+
+
+            <br />
+            <br />
+
+
+            <div>
+              2 NORA RD
+            </div>
+            <div>
+              EDISON, NJ 08837
+            </div>
+
+
+
+          </div>
+
+
+
+
+
+
+
         </div>
 
 
 
+
+        <br />
+        <br />
+
+        {/* --------------------------------------------------------------------------------------------------------------------------------------- */}
+
+
+        <div>
+
+
+          <div style={{ background: "red", width: "33%", textAlign: "center" }}>
+            <div>
+              CALL US
+            </div>
+
+            <div style={{ width: "5%", marginLeft:"47%" }}>
+              <hr style={{ color: "rgba(31,37,38,.15)", backgroundColor: "rgba(31,37,38,.15)", height: "2px", marginTop: "32px", marginBottom: "32px", borderWidth: 0, borderStyle: "none", boxSizing: "content-box" }} />
+            </div>
+
+            <div>
+              P: (718) 326-0125
+              F: (718) 326-3958
+            </div>
+          </div>
+
+
+
+
+          <div style={{ background: "white", width: "33.4%", textAlign: "center" }}>
+            <div>
+              CALL US
+            </div>
+
+            <div style={{ width: "5%", marginLeft:"47%" }}>
+              <hr style={{ color: "rgba(31,37,38,.15)", backgroundColor: "rgba(31,37,38,.15)", height: "2px", marginTop: "32px", marginBottom: "32px", borderWidth: 0, borderStyle: "none", boxSizing: "content-box" }} />
+            </div>
+
+            <div>
+              P: (718) 326-0125
+              F: (718) 326-3958
+            </div>
+          </div>
+
+
+
+
+          <div style={{ background: "orange", width: "33%", textAlign: "center" }}>
+            <div>
+              CALL US
+            </div>
+
+            <div style={{ width: "5%", marginLeft:"47%" }}>
+              <hr style={{ color: "rgba(31,37,38,.15)", backgroundColor: "rgba(31,37,38,.15)", height: "2px", marginTop: "32px", marginBottom: "32px", borderWidth: 0, borderStyle: "none", boxSizing: "content-box" }} />
+            </div>
+
+            <div>
+              P: (718) 326-0125
+              F: (718) 326-3958
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+
+        {/* --------------------------------------------------------------------------------------------------------------------------------------- */}
 
       </div>
 
