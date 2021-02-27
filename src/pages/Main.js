@@ -453,7 +453,7 @@ class Main extends Component {
             </div>
           </div>
 
-          <div style={{ background: "#191a1c", width: "33.4%", textAlign: "center", display: "inline-block", borderLeft: "3px solid whitesmoke", borderRight: "3px solid whitesmoke" }}>
+          <div style={{ background: "#191a1c", width: "33.4%", textAlign: "center", display: "inline-block", borderLeft: "3px solid #9da1a5", borderRight: "3px solid #9da1a5" }}>
             <div style={{ color: "white" }}>
               EMAIL US
             </div>
