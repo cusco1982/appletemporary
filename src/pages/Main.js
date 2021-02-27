@@ -364,7 +364,7 @@ class Main extends Component {
           </div>
 
 
-          
+
 
         </div>
 
@@ -381,7 +381,25 @@ class Main extends Component {
 
         <div className="contact" style={{ background: "blue", height: "30vh" }}>
 
-          three
+
+
+
+
+          <div>
+
+            Need a quote? Click here! >
+
+          </div>
+
+
+          <div>
+
+            <a href="contact"> FREE QUOTE </a>
+
+          </div>
+
+
+
 
 
         </div>
