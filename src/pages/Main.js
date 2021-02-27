@@ -379,30 +379,37 @@ class Main extends Component {
         <br />
         <br />
 
-        <div className="contact" style={{ background: "blue", height: "30vh" }}>
+        <div className="contact" style={{ background: "blue", color: "black" }}>
 
 
 
+          <div style={{ display: "inline-block", width: "50%", fontSize: "300%", textAlign: "center" }}>
 
 
-          <div>
+            Need a FREE quote? Click here!
 
-            Need a quote? Click here! >
 
           </div>
 
 
-          <div>
+          <div style={{ display: "inline-block", width: "50%", fontSize: "300%", textAlign: "center" }}>
 
-            <a href="contact"> FREE QUOTE </a>
+
+
+            <a href="contact">
+
+              <button type="button" class="btn btn-light">FREE QUOTE</button>
+
+            </a>
+
+
 
           </div>
-
-
 
 
 
         </div>
+
 
         {/* ------------------------------------------------------------------------------------------------------------------------------------------------------ */}
 
