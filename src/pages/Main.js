@@ -533,7 +533,7 @@ class Main extends Component {
         {/* --------------------------------------------------------------------------------------------------------------------------------------- */}
 
 
-        <div>
+        <div style={{background:"yellow"}}>
 
 
           <div style={{ background: "green", width: "33%", textAlign: "center" }}>
@@ -556,7 +556,7 @@ class Main extends Component {
 
 
 
-          <div style={{ background: "white", width: "33.4%", textAlign: "center" }}>
+          <div style={{ background: "white", width: "33.4%", textAlign: "center"}}>
             <div>
               EMAIL US
             </div>
@@ -578,7 +578,7 @@ class Main extends Component {
               VISIT US
             </div>
 
-            <div style={{ width: "5%", marginLeft: "47%" }}>
+            <div style={{ width: "5%", marginLeft: "47%", position:"relative" }}>
               <hr style={{ color: "rgba(31,37,38,.15)", backgroundColor: "rgba(31,37,38,.15)", height: "2px", marginTop: "32px", marginBottom: "32px", borderWidth: 0, borderStyle: "none", boxSizing: "content-box" }} />
             </div>
 
