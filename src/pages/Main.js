@@ -433,166 +433,66 @@ class Main extends Component {
 
         {/* ------------------------------------------------------------   ADD THIS TO FOOTER COMPONENT ------------------------------------------------------------------- */}
 
+        <div style={{ height: "10vh", background: "#191a1c" }}></div>
 
 
+        <div>
 
-
-
-
-
-        <div className="projects" style={{ height: "30vh", width: "100%", color: "white", textAlign: "center" }}>
-
-
-
-
-
-          <div style={{ display: "inline-block", width: "33.3%", background: "black" }}>
-
-
-            <div>
+          <div style={{ background: "#191a1c", width: "33.3%", textAlign: "center", display: "inline-block" }}>
+            <div style={{ color: "white" }}>
               CALL US
             </div>
-
-
-
-            <br />
-            <br />
-            <br />
-
-
-            <div>
-              P: (732) 423-9671
-            </div>
-            <div>
-              F: (111) 111-1111
-            </div>
-
-
-          </div>
-
-
-
-
-
-          <div style={{ display: "inline-block", width: "33.4%", background: "red" }}>
-
-
-            <div>
-              EMAIL US
-            </div>
-
-
-            <br />
-            <br />
-            <div style={{ fontSize: "200%" }}>
-              WJBestInsulation@gmail.com
-            </div>
-
-          </div>
-
-
-
-
-          <div style={{ display: "inline-block", width: "33.3%", background: "blue" }}>
-
-
-            <div>
-              VISIT US
-            </div>
-
-
-            <br />
-            <br />
-
-
-            <div>
-              2 NORA RD
-            </div>
-            <div>
-              EDISON, NJ 08837
-            </div>
-
-
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-
-
-
-
-        <br />
-        <br />
-
-        {/* --------------------------------------------------------------------------------------------------------------------------------------- */}
-
-
-        <div style={{background:"yellow"}}>
-
-
-          <div style={{ background: "green", width: "33%", textAlign: "center" }}>
-            <div>
-              CALL US
-            </div>
-
             <div style={{ width: "5%", marginLeft: "47%" }}>
-              <hr style={{ color: "rgba(31,37,38,.15)", backgroundColor: "rgba(31,37,38,.15)", height: "2px", marginTop: "32px", marginBottom: "32px", borderWidth: 0, borderStyle: "none", boxSizing: "content-box" }} />
+              <hr style={{ color: "white", backgroundColor: "white", height: "2px", marginTop: "32px", marginBottom: "32px", borderWidth: 0, borderStyle: "none", boxSizing: "content-box" }} />
             </div>
-
-            <div>
+            <div style={{ color: "#9da1a5" }}>
               P: (732) 423-9671
             </div>
-            <div>
+            <div style={{ color: "#9da1a5" }}>
               F: (111) 222-3333
             </div>
           </div>
 
-
-
-
-          <div style={{ background: "white", width: "33.4%", textAlign: "center"}}>
-            <div>
+          <div style={{ background: "#191a1c", width: "33.4%", textAlign: "center", display: "inline-block", borderLeft: "3px solid whitesmoke", borderRight: "3px solid whitesmoke" }}>
+            <div style={{ color: "white" }}>
               EMAIL US
             </div>
-
             <div style={{ width: "5%", marginLeft: "47%" }}>
-              <hr style={{ color: "rgba(31,37,38,.15)", backgroundColor: "rgba(31,37,38,.15)", height: "2px", marginTop: "32px", marginBottom: "32px", borderWidth: 0, borderStyle: "none", boxSizing: "content-box" }} />
+              <hr style={{ color: "#9da1a5", backgroundColor: "#9da1a5", height: "2px", marginTop: "32px", marginBottom: "32px", borderWidth: 0, borderStyle: "none", boxSizing: "content-box" }} />
             </div>
 
-            <div>
+            <div style={{ color: "#9da1a5" }}>
               WJBestInsulation@gmail.com
             </div>
+            <div>&nbsp;</div>
           </div>
 
-
-
-
-          <div style={{ background: "orange", width: "33%", textAlign: "center" }}>
-            <div>
+          <div style={{ background: "#191a1c", width: "33.3%", textAlign: "center", display: "inline-block" }}>
+            <div style={{ color: "white" }}>
               VISIT US
             </div>
-
-            <div style={{ width: "5%", marginLeft: "47%", position:"relative" }}>
-              <hr style={{ color: "rgba(31,37,38,.15)", backgroundColor: "rgba(31,37,38,.15)", height: "2px", marginTop: "32px", marginBottom: "32px", borderWidth: 0, borderStyle: "none", boxSizing: "content-box" }} />
+            <div style={{ width: "5%", marginLeft: "47%", position: "relative" }}>
+              <hr style={{ color: "#9da1a5", backgroundColor: "white", height: "2px", marginTop: "32px", marginBottom: "32px", borderWidth: 0, borderStyle: "none", boxSizing: "content-box" }} />
             </div>
-
-            <div>
+            <div style={{ color: "#9da1a5" }}>
               2 NORA RD
             </div>
-            <div>
+            <div style={{ color: "#9da1a5" }}>
               EDISON, NJ 08837
             </div>
-
           </div>
 
-
         </div>
+
+        <div style={{ height: "10vh", background: "#191a1c" }}></div>
+
+
+
+
+
+        <br />
+        <br />
+        <br />
 
 
 
