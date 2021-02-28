@@ -484,7 +484,7 @@ class Main extends Component {
 
         </div>
 
-        <div style={{ height: "10vh", background: "#191a1c" }}></div>
+        <div style={{ height: "12vh", background: "#191a1c" }}></div>
 
 
 
