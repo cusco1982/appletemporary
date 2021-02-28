@@ -461,11 +461,25 @@ class Main extends Component {
               <hr style={{ color: "#9da1a5", backgroundColor: "#9da1a5", height: "2px", marginTop: "32px", marginBottom: "32px", borderWidth: 0, borderStyle: "none", boxSizing: "content-box" }} />
             </div>
 
+
+
+
+
+
+
+
             <div style={{ color: "#9da1a5" }}>
-              WJBestInsulation@gmail.com
+              <a href="mailto:wjbestinsulation@gmail.com">
+                WJBestInsulation@gmail.com
+              </a>
             </div>
             <div>&nbsp;</div>
           </div>
+
+
+
+
+
 
           <div style={{ background: "#191a1c", width: "33.3%", textAlign: "center", display: "inline-block" }}>
             <div style={{ color: "white" }}>
