@@ -36,9 +36,9 @@ class Main extends Component {
       <div>
 
 
-        <div style={{ height: "6vh", background: "black" }}>
+        <div style={{ height: "9vh", background: "black" }}>
 
-          <li style={{ color: "white", textAlign: "center", listStyle: "none", fontSize: "25px" }}>
+          <li style={{ color: "white", textAlign: "center", listStyle: "none", fontSize: "25px", paddingTop:"1%" }}>
             <ul style={{ display: "inline-block", width: "20%", paddingTop: "12px" }}>SERVICES</ul>
             <ul style={{ display: "inline-block", width: "20%" }}>OUR WORK</ul>
             <ul style={{ display: "inline-block", width: "20%" }}>SERVICES</ul>
