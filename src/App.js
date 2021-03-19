@@ -10,6 +10,8 @@ import Main from "./pages/Main";
 
 import Footer from "./components/Footer";
 
+import Carousel from "./components/Carousel";
+
 
 
 
@@ -29,6 +31,8 @@ class App extends Component {
 
 
           <Route exact path="/" component={Main} />
+          <Route exact path="/carousel" component={Carousel} />
+
 
           <Footer />
 

@@ -1,3 +1,43 @@
+import React, { Component } from 'react';
+// import "./style.css";
+
+
+
+
+class Carousel extends Component {
+  render() {
+
+    return (
+
+
+
+      <div >
+
+
+
+        <div style={{ background: "blue", height: "200px" }}>
+          hello
+        </div>
+
+        <div style={{ background: "red", height: "200px" }}>
+          hello
+        </div>
+
+        <div style={{ background: "orange", height:"600px"}}>
+          hello
+        </div>
+
+
+      </div>
+
+    );
+  }
+}
+
+export default Carousel;
+
+
+
 // import React from "react";
 // import "./style.css";
 // import { menuData } from "./menu-data.js"
