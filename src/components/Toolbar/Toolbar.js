@@ -13,6 +13,14 @@ const toolbar = props => (
 
         <div className="logo"><a href="/">WJ Best Insulation</a></div>
 
+        <div style={{background:"blue"}}>
+            <i>Serving New Jersey, New York, and Pennsylvania</i>
+            <br />
+            732 - 423 - 9671
+            <br />
+            <a href="/services"><button>or contact us online</button></a>
+        </div>
+
 
         <div className="social-media">
             <ul>
