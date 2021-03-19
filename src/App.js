@@ -10,7 +10,7 @@ import Main from "./pages/Main";
 
 import Footer from "./components/Footer";
 
-import Carousel from "./components/Carousel";
+import Carouselx from "./components/Carouselx";
 
 
 
@@ -31,7 +31,7 @@ class App extends Component {
 
 
           <Route exact path="/" component={Main} />
-          <Route exact path="/carousel" component={Carousel} />
+          <Route exact path="/carousel" component={Carouselx} />
 
 
           <Footer />
