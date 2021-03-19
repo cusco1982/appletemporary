@@ -34,7 +34,7 @@ class Main extends Component {
     return (
 
       <div>
-
+<a href="/carousel">carousel</a>
 
         <div style={{ height: "9vh", background: "black" }}>
 
