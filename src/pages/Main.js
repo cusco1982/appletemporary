@@ -38,7 +38,7 @@ class Main extends Component {
 
         <div style={{ height: "9vh", background: "black" }}>
 
-          <li style={{ color: "white", textAlign: "center", listStyle: "none", fontSize: "25px", paddingTop:"1%" }}>
+          <li style={{ color: "white", textAlign: "center", listStyle: "none", fontSize: "25px", paddingTop: "1%" }}>
             <ul style={{ display: "inline-block", width: "20%", paddingTop: "12px" }}>SERVICES</ul>
             <ul style={{ display: "inline-block", width: "20%" }}>OUR WORK</ul>
             <ul style={{ display: "inline-block", width: "20%" }}>SERVICES</ul>
@@ -84,7 +84,7 @@ class Main extends Component {
                 <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
                 <p>
                   <a href="/projects" style={{ color: "white", textAlign: "center", borderRadius: "25px", border: "2px solid white", padding: "20px", width: "200px", height: "75px", marginRight: "25%" }}>
-                    VIEW PROJECT
+                    VIEW PROJECTS
                     </a>
                 </p>
                 <br /> <br /> <br />
@@ -183,6 +183,7 @@ class Main extends Component {
 
 
 
+        <h1 style={{textAlign:"center"}}>Have a look at a few of our expertises</h1>
 
 
 
@@ -190,7 +191,9 @@ class Main extends Component {
         {/* ------------------------------------------------  SERVICES IMAGE GRID  ---------------------------------------------------------------------------------------------- */}
         <div style={{ background: "#191a1c" }}>
 
-          <div style={{ background: "#191a1c", height: "8vh" }}></div>
+          <div style={{ background: "#191a1c", height: "8vh", color: "white", textAlign: "center", fontSize: "20px" }}>
+
+          </div>
 
           <div style={{ height: "15vh", color: "whitesmoke", justifyContent: "center", display: "flex" }}>
             <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
