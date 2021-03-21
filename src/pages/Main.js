@@ -18,7 +18,7 @@ import insulation from "./photos/insulation.png"
 import consulting from "./photos/consulting.png"
 
 
-
+import Gallery from "../components/Gallery"
 
 
 
@@ -257,10 +257,6 @@ class Main extends Component {
 
 
 
-
-
-
-
         <br />
         <br />
         {/* ------------------------------------------------------------------------  6 BOX  -------------------------------------------------------------------- */}
@@ -311,41 +307,21 @@ class Main extends Component {
         <br />
 
 
-        <div className="projects" style={{ background: "yellow", height: "30vh", width: "100%", color: "white", textAlign: "center" }}>
+        {/* <div className="projects" style={{ background: "yellow", height: "30vh" }}> */}
+
+          <Gallery />
 
 
 
 
 
 
+        {/* </div> */}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </div>
-
-
+        <br />
+        <br />
+        <br />
         <br />
         <br />
         <br />

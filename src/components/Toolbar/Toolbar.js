@@ -70,7 +70,7 @@ const toolbar = props => (
             <li style={{ color: "white", textAlign: "center", listStyle: "none", fontSize: "25px", paddingTop: "1%" }}>
                 <ul style={{ display: "inline-block", width: "20%", paddingTop: "12px" }}><a href="/">HOME</a></ul>
                 <ul style={{ display: "inline-block", width: "20%", paddingTop: "12px" }}><a href="/services">SERVICES</a></ul>
-                <ul style={{ display: "inline-block", width: "20%", paddingTop: "12px" }}><a href="/projects">PROJECTS</a></ul>
+                <ul style={{ display: "inline-block", width: "20%", paddingTop: "12px" }}><a href="/gallery">GALLERY</a></ul>
                 <ul style={{ display: "inline-block", width: "20%", paddingTop: "12px" }}><a href="/carousel">OUR WORK</a></ul>
                 <ul style={{ display: "inline-block", width: "20%", paddingTop: "12px" }}><a href="/contact">CONTACT US</a></ul>
 

@@ -23,18 +23,18 @@ const breakPoints = [
 ];
 
 
-class Carouselx extends Component {
+class Gallery extends Component {
   render() {
 
     return (
 
       <div >
 
-        <div style={{ background: "blue", height: "200px" }}>hello</div>
+        {/* <div style={{ background: "blue", height: "200px" }}>hello</div> */}
 
 
         {/* -------------------------------------------------------------------------------- */}
-        <div style={{ height: "200px" }}>
+        <div>
 
 
           <h1 style={{ textAlign: "center" }}>Example to setup carousel in React</h1>
@@ -65,6 +65,7 @@ class Carouselx extends Component {
                 <img style={{ maxWidth: "100%", maxHeight: "100%" }} src={image8} alt="First slide" />
               </Item>
             </Carousel>
+            
           </div>
 
 
@@ -74,7 +75,7 @@ class Carouselx extends Component {
 
 
 
-        <div style={{ background: "orange", height: "600px" }}></div>
+        {/* <div style={{ background: "orange", height: "600px" }}></div> */}
 
 
       </div>
@@ -83,7 +84,7 @@ class Carouselx extends Component {
   }
 }
 
-export default Carouselx;
+export default Gallery;
 
 
 

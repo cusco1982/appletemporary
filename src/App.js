@@ -10,7 +10,7 @@ import Main from "./pages/Main";
 
 import Footer from "./components/Footer";
 
-import Carouselx from "./components/Carouselx";
+import Gallery from "./components/Gallery";
 import Contact from "./pages/Contact";
 
 
@@ -31,7 +31,7 @@ class App extends Component {
 
 
           <Route exact path="/" component={Main} />
-          <Route exact path="/carousel" component={Carouselx} />
+          <Route exact path="/gallery" component={Gallery} />
           <Route exact path="/contact" component={Contact} />
 
 
