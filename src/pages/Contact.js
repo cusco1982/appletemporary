@@ -121,6 +121,11 @@ class Contact extends Component {
         </div>
 
 
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
 
 
       </div>
