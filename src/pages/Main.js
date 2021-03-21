@@ -34,22 +34,7 @@ class Main extends Component {
     return (
 
       <div>
-<a href="/carousel">carousel</a>
-
-        <div style={{ height: "9vh", background: "black" }}>
-
-          <li style={{ color: "white", textAlign: "center", listStyle: "none", fontSize: "25px", paddingTop: "1%" }}>
-            <ul style={{ display: "inline-block", width: "20%", paddingTop: "12px" }}>SERVICES</ul>
-            <ul style={{ display: "inline-block", width: "20%" }}>OUR WORK</ul>
-            <ul style={{ display: "inline-block", width: "20%" }}>SERVICES</ul>
-            <ul style={{ display: "inline-block", width: "20%" }}>CONTACT US</ul>
-          </li>
-
-        </div>
-
-
-
-
+        {/* <a href="/carousel">carousel</a> */}
 
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="50000">
 
@@ -183,7 +168,7 @@ class Main extends Component {
 
 
 
-        <h1 style={{textAlign:"center"}}>Have a look at a few of our expertises</h1>
+        <h1 style={{ textAlign: "center" }}>A look at a few of our expertises</h1>
 
 
 
@@ -199,7 +184,7 @@ class Main extends Component {
             <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
               <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
               <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
-                <h2 style={{ paddingLeft: "10px" }}>Abatement</h2>
+                <h2 style={{ paddingLeft: "10px" }}>Insulation</h2>
                 <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
                   Asbestos, lead, and mold abatement and remediation services.
                 </p>

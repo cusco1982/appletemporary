@@ -1,10 +1,19 @@
 import React, { Component } from 'react';
 
-import ReactDOM from "react-dom";
-
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
-import "./style.css";
+// import "./style.css";
+
+import image1 from "../../pages/wjphotos/lastjobb4after/IMG_5722.JPG"
+import image2 from "../../pages/wjphotos/lastjobb4after/IMG_5723.JPG"
+import image3 from "../../pages/wjphotos/lastjobb4after/IMG_5724.JPG"
+import image4 from "../../pages/wjphotos/lastjobb4after/IMG_5725.JPG"
+
+import image5 from "../../pages/wjphotos/lastjobb4after/IMG_5725.JPG"
+import image6 from "../../pages/wjphotos/lastjobb4after/IMG_5725.JPG"
+import image7 from "../../pages/wjphotos/lastjobb4after/IMG_5725.JPG"
+import image8 from "../../pages/wjphotos/lastjobb4after/IMG_5725.JPG"
+
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
@@ -24,41 +33,39 @@ class Carouselx extends Component {
         <div style={{ background: "blue", height: "200px" }}>hello</div>
 
 
-
-
         {/* -------------------------------------------------------------------------------- */}
         <div style={{ height: "200px" }}>
 
 
-
-
-
-
-
-
           <h1 style={{ textAlign: "center" }}>Example to setup carousel in React</h1>
-          <div className="App">
-
-          <Carousel breakPoints={breakPoints}>
-            <Item>One</Item>
-            <Item>Two</Item>
-            <Item>Three</Item>
-            <Item>Four</Item>
-            <Item>Five</Item>
-            <Item>Six</Item>
-            <Item>Seven</Item>
-            <Item>Eight</Item>
-          </Carousel>
-
+          <div>
+            <Carousel breakPoints={breakPoints}>
+              <Item>
+                <img style={{ maxWidth: "100%", maxHeight: "100%" }} src={image1} alt="First slide" />
+              </Item>
+              <Item>
+                <img style={{ maxWidth: "100%", maxHeight: "100%" }} src={image2} alt="First slide" />
+              </Item>
+              <Item>
+                <img style={{ maxWidth: "100%", maxHeight: "100%" }} src={image3} alt="First slide" />
+              </Item>
+              <Item>
+                <img style={{ maxWidth: "100%", maxHeight: "100%" }} src={image4} alt="First slide" />
+              </Item>
+              <Item>
+                <img style={{ maxWidth: "100%", maxHeight: "100%" }} src={image5} alt="First slide" />
+              </Item>
+              <Item>
+                <img style={{ maxWidth: "100%", maxHeight: "100%" }} src={image6} alt="First slide" />
+              </Item>
+              <Item>
+                <img style={{ maxWidth: "100%", maxHeight: "100%" }} src={image7} alt="First slide" />
+              </Item>
+              <Item>
+                <img style={{ maxWidth: "100%", maxHeight: "100%" }} src={image8} alt="First slide" />
+              </Item>
+            </Carousel>
           </div>
-
-
-
-
-
-
-
-
 
 
         </div>
@@ -67,7 +74,7 @@ class Carouselx extends Component {
 
 
 
-        <div style={{ background: "orange", height: "600px" }}>hello</div>
+        <div style={{ background: "orange", height: "600px" }}></div>
 
 
       </div>
