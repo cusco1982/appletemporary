@@ -1,0 +1,68 @@
+.footer {
+  min-height: 100px;
+  background: #E5E5E5;
+  position: relative;
+}
+
+.information {
+  color:whitesmoke;
+  background:#191a1c;
+  height:25vh;
+
+  /* outline:1px solid red; */
+}
+
+
+.contact{
+  outline:1px solid rgba(102, 92, 92, 0.431);
+  background: #fff;
+}
+
+
+.footer span {
+  position: absolute;
+  /* bottom: 0; */
+  left: 0;
+  right: 0;
+  margin-top: 10%;
+  /* background: #B8B8B8; */
+}
+
+
+
+
+#assistnav {
+  outline:1px solid rgba(102, 92, 92, 0.431);
+  color: #003366
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  
+  /* navigation links on hover */
+  #assistnav:hover {
+    color: #003366;
+    background-color: rgba(59, 59, 59, 0.054);
+
+    animation: colorChange .2s;
+    /* background-color: rgba(37, 37, 37, 0.089); */
+    
+    /* round div corners */
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+    
+    outline: 1px solid #003366;
+  }
+
+
+}
+
+
+@keyframes colorChange {
+  0% { background-color: whitesmoke; }
+  100% { background-color: rgba(59, 59, 59, 0.054); }
+}

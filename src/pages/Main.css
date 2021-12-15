@@ -1,0 +1,198 @@
+body {
+  overflow-x: hidden;
+}
+
+a:link {
+  text-decoration: none;
+}
+  
+a:hover {
+  /* font-size: 110%; */
+  color: blue;
+}
+  
+
+a {
+  color:black;
+}
+
+
+.bloomy .tooltiptext {
+  visibility: hidden;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 5s;
+  color:white;
+  width: 120px;
+  font-size: 80px;
+  position:relative;
+  top:200%;
+}
+
+.bloomy:hover {
+  opacity: 80%;
+  transition: opacity 1s;
+}
+
+.bloomy:hover .tooltiptext {
+  visibility: visible;
+  opacity: 80%;
+     
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  /* navigation links on hover */
+  .carousel-caption p :hover {
+    animation: colorChanger .5s;
+    background-color: rgba(19, 18, 18, 0.513);
+
+  }
+}
+  
+  
+@keyframes colorChanger {
+  0% { background-color: rgba(133, 131, 131, 0.089); }
+  100% { background-color: rgba(19, 18, 18, 0.513); }
+}
+  
+
+.date{
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+
+  /*
+  Introduced in IE 10.
+  See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+  */
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.Intro-projects{
+  width:100%;
+  height:auto;
+  background-color: whitesmoke;
+  color:black;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 1.8%;
+}
+
+
+.Intro-projects p{
+  font-size: 30px;
+}
+
+
+/* ------------------ image text overlay slide on hover -------------------- */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  opacity: 80%;
+}
+.container:hover .overlay {
+  width: 70%;
+}
+  .container {
+  position: relative;
+  width: 50%;
+  display: inline-block;
+}
+
+
+
+
+/* --------------------------------  projects title bottom borders   --------------------------------------- */
+.container .colorborder{
+  opacity:.2;
+}
+.container:hover .colorborder{
+  opacity:1;
+}
+
+
+
+/* ------------------------ markets we serve/expertise ------------------------------ */
+.left {
+  width: 50% ;
+  padding: 60px ;
+  background-image: url(./greypattern.svg) ;
+  background-repeat: no-repeat ;
+  background-size: 380px 506px ;
+  background-position: left 0 top 15px ; 
+  border-left: 1px solid rgb(190, 190, 190) ;
+  border-bottom: 1px solid rgb(190, 190, 190) ;
+}
+.right {
+  width: 50% ;
+  padding: 60px ;
+  background-image: url(./greypattern.svg) ;
+  background-repeat: no-repeat ;
+  background-size: 380px 506px ;
+  background-position: left 0 top 15px ; 
+  border-top: 1px solid rgb(190, 190, 190) ;
+  border-right: 1px solid rgb(190, 190, 190) ;
+}
+.left:hover{
+  background-image: url(./bluepattern.svg);
+  border-left: 1px solid #003366 ;
+  border-bottom: 1px solid #003366 ;
+  /* transition-delay: .2s; */
+}
+
+.right:hover{
+  background-image: url(./bluepattern.svg);
+  border-top: 1px solid #003366 ;
+  border-right: 1px solid #003366 ;
+}
+
+
+
+
+
+
+/* ------------------------------ carousel left/right --------------------------------- */
+
+.carousel-indicators {
+  margin-bottom: 50px;
+}
+.carousel-indicators li{
+  height:10px;
+  width:60px;
+}
+.carousel-control-prev{
+  background: rgba(0, 0, 0, 0.383);
+  width: 10%;
+}
+.carousel-control-next {
+  background: rgba(0, 0, 0, 0.383);
+  width: 10%;
+}
+.carousel-control-prev:hover{
+  opacity: 1.2;
+}
+.carousel-control-next:hover{
+  opacity: 1.2;
+}
+

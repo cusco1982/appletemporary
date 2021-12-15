@@ -1,0 +1,15 @@
+#headerimage{
+    background-image: url(./constructionsite.png) ;
+    background-repeat: no-repeat
+}
+
+#boilerimage1{
+    background-image: url(./wjphotos/ohmlabsTANK/bigmetalTANKohmlabs.JPG) ;
+    background-repeat: no-repeat;
+    background-size: 55% 100%;
+    background-position: 80% 0%;
+}
+#boilerimage2{
+    background-image: url(./wjphotos/boiler2pics/IMG_1343.JPG) ;
+}
+

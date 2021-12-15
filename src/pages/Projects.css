@@ -1,0 +1,58 @@
+/* #headerimag{
+    background-image: url(./wjphotos/comparitanbasement/IMG_5092.JPG) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+
+@media screen and (max-width:1199px) {
+    .projects-header {
+        
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+    }
+
+
+    .projects-header::before{
+
+        content:'';
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-image: url(./wjphotos/comparitanbasement/IMG_5092.JPG) ;
+        background-position: top center;
+        opacity: .25;
+        font-size: 10px;
+        
+
+    }
+}
+
+
+.projects-header{
+    background-color: rgba(1,51,102,0.8);
+
+}
+
+.header-text h1{
+    position: relative;
+    font-size: calc(50px + 0.5vw);
+    text-align: left;
+    color: #fdc600;
+    padding: 40px;
+    /* background-color:yellow; */
+}
+
+.header-text h2{
+    color:white;
+    padding:20px;
+    line-height: 1.4;
+    font-size: calc(25px + 0.5vw);
+    /* background-color: red; */
+}

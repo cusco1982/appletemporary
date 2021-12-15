@@ -18,7 +18,10 @@ import insulation from "./photos/insulation.png"
 import consulting from "./photos/consulting.png"
 
 
-import Gallery from "../components/Gallery"
+// import Gallery from "../components/Gallery";
+import Carouselx from "../components/Carouselx";
+
+import greypattern from "./greypattern.svg"
 
 
 
@@ -31,10 +34,16 @@ class Main extends Component {
     var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     let d;
     d = new Date();
+
+
+    
     return (
 
-      <div>
-        {/* <a href="/carousel">carousel</a> */}
+      <div style={{ }}>
+
+
+        {/*---------------------------------------  Main Carouel -----------------------------------------*/}
+
 
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="50000">
 
@@ -42,8 +51,9 @@ class Main extends Component {
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li style={{ marginRight: "auto" }} data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
+
           {/* -------------------------------------------- */}
 
 
@@ -53,9 +63,9 @@ class Main extends Component {
 
 
 
-            <div style={{ height: "60vh" }} class="carousel-item active">
+            <div style={{ }} class="carousel-item active">
 
-              <img class="d-block w-100" src={img2} alt="First slide" />
+              <img style={{height:"65vh"}} class="d-block w-100" src={img2} alt="First slide" />
 
 
               <div class="carousel-caption d-none d-md-block" style={{ position: "absolute", left: "0", top: "0", right: "60%" }}>
@@ -66,6 +76,10 @@ class Main extends Component {
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     {months[d.getMonth()]} {d.getFullYear()}
                 </h2>
+                <br />
+                <h1>
+                  Welcome to WJ Best Insulation
+                </h1>
                 <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
                 <p>
                   <a href="/projects" style={{ color: "white", textAlign: "center", borderRadius: "25px", border: "2px solid white", padding: "20px", width: "200px", height: "75px", marginRight: "25%" }}>
@@ -84,14 +98,14 @@ class Main extends Component {
 
 
 
-            <div style={{ height: "60vh" }} class="carousel-item" >
-              <img class="d-block w-100" src={img2} alt="Second slide" />
+            <div class="carousel-item" >
+              <img style={{ height: "65vh" }} class="d-block w-100" src={img2} alt="Second slide" />
             </div>
 
 
 
-            <div style={{ height: "60vh" }} class="carousel-item">
-              <img class="d-block w-100" src={img3} alt="Third slide" />
+            <div class="carousel-item">
+              <img style={{ height: "65vh" }} class="d-block w-100" src={img3} alt="Third slide" />
             </div>
 
           </div>
@@ -99,10 +113,12 @@ class Main extends Component {
 
 
           {/* -------------------------------------------- */}
+
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
+
           <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
@@ -114,42 +130,180 @@ class Main extends Component {
 
         <br />
 
-
         {/* ------------------------------------------------------------------------------------------------------------------------------------------------------ */}
 
 
 
 
+        {/* ----------------------------------------------- Projects Intro div ------------------------------------------------------ */}
+
+        <div className="Intro-projects">
 
 
 
-        {/* --------------------------------------------------------------------    QUOTE    ------------------------------------------------------------------------ */}
-
-        <br />
-        <br />
 
 
+          <header>
+            <h1 style={{ display: "inline-block" }}> Our Projects </h1>
+            <button style={{ display: "inline-block", float: "right", fontSize: "25px", paddingTop: "12px", paddingBottom: "12px", paddingLeft: "25px", paddingRight: "25px" }}>
+              <a href="/projects">
+                View All Projects
+              </a>
+            </button>
 
-        <div className="contact" style={{ background: "white", color: "black" }}>
+            <br />
+            <br />
+            <br />
+
+            <p>
+              Whatever the size of the project, Keller has the expertise and experience to respond quickly with the optimal solution, execute safely and see the project through to a successful conclusion.
+            </p>
+          </header>
 
 
-
-          <div style={{ fontSize: "300%", textAlign: "center" }}>
-
-
-            <div>
-              Need a FREE quote? Click here!
-            </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
 
 
+          <div className="image-row">
 
-            <a href="contact">
-
-              <button type="button" class="btn btn-light" style={{ fontSize: "70%", borderColor: "black" }}>FREE QUOTE</button>
-
+            <a href="/projects">
+              <div className="container">
+                <img style={{ width: "100%", height: "100%" }} src={img1} alt="" />
+                <div className="overlay">
+                  <div className="text">
+                    <div>
+                      <h1>Solutions</h1>
+                      <p>Heavy foundations</p>
+                    </div>
+                    <div>
+                      <h1>Markets</h1>
+                      <p>Institutional/Sports entertainment</p>
+                    </div>
+                    <div>
+                      <h1>Techniques</h1>
+                      <p>Drilled shafts</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="/projects">
+              <div className="container">
+                <img style={{ width: "100%", height: "100%" }} src={img3} alt="" />
+                <div className="overlay">
+                  <div className="text">
+                    <div>
+                      <h1>Solutions</h1>
+                      <p>Heavy foundations</p>
+                    </div>
+                    <div>
+                      <h1>Markets</h1>
+                      <p>Institutional/Sports entertainment</p>
+                    </div>
+                    <div>
+                      <h1>Techniques</h1>
+                      <p>Drilled shafts</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </a>
 
+          </div>
 
+
+          <div className="image-description" style={{ paddingTop: "2%" }}>
+
+            <a href="/projects">
+              <div className="container">
+                <h1>Port Everglades Southport Turning Notch</h1>
+                <text style={{ paddingTop: "2%" }}>
+                  <svg style={{ paddingRight: "6px" }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" /></svg>
+                  Calgary, Alberta, Canada
+                  </text>
+                <br />
+                <br />
+                <br />
+                <br />
+                <div className="colorborder" style={{ width: "100%", borderBottom: "2px solid black" }}></div>
+              </div>
+            </a>
+
+            <a href="/projects">
+              <div className="container">
+                <h1>Calgary Zoo - Canadian Wild's Bugtopia</h1>
+                <text style={{ paddingTop: "2%" }}>
+                  <svg style={{ paddingRight: "6px" }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" /></svg>
+                  Broward County, Florida
+                </text>
+                <br />
+                <br />
+                <br />
+                <br />
+                <div className="colorborder" style={{ width: "100%", borderBottom: "2px solid black" }}></div>
+              </div>
+            </a>
+
+          </div>
+
+
+
+
+        </div>
+
+        {/* ----------------------------------------------- Projects Intro div end ------------------------------------------------------ */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {/* -----------------------------------------------  MARKETS WE SERVE / OUR EXPERTISE --------------------------------------------------- */}
+
+
+        <br />
+        <br />
+        <br />
+
+
+        <div style={{ display: "flex", width: "70%", background: "", marginRight: "auto", marginLeft: "auto", height: "40vh" }}>
+
+
+
+          <div className="left">
+
+            <h1>Markets we serve</h1>
+            <br />
+            <p style={{ fontSize: "30px", width: "60%" }}>Keller has experience across many markets througout the construction industry and understand the unique challanges and...</p>
+            <br />
+            <br />
+            <p>Learn more --></p>
+
+          </div>
+
+
+
+
+          <div className="right">
+
+
+            <h1>Our expertise</h1>
+            <br />
+            <p style={{ fontSize: "30px", width: "60%" }}>Keller is able to tap into a wealth of experience, and using proven, best practice methods offer a wide range of...</p>
+            <br />
+            <br />
+            <p>Learn more --></p>
 
           </div>
 
@@ -157,177 +311,127 @@ class Main extends Component {
 
         </div>
 
-
-
         <br />
         <br />
         <br />
-
-        {/* ------------------------------------------------------------------------------------------------------------------------------------------------------ */}
-
-
-
-
-        <h1 style={{ textAlign: "center" }}>A look at a few of our expertises</h1>
+        <br />
 
 
 
 
-        {/* ------------------------------------------------  SERVICES IMAGE GRID  ---------------------------------------------------------------------------------------------- */}
-        <div style={{ background: "#191a1c" }}>
 
-          <div style={{ background: "#191a1c", height: "8vh", color: "white", textAlign: "center", fontSize: "20px" }}>
+        {/* -----------------------------------------------  markets we serve end --------------------------------------------------- */}
 
-          </div>
 
-          <div style={{ height: "15vh", color: "whitesmoke", justifyContent: "center", display: "flex" }}>
-            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
-              <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
-              <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
-                <h2 style={{ paddingLeft: "10px" }}>Insulation</h2>
-                <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
-                  Asbestos, lead, and mold abatement and remediation services.
+
+
+
+
+
+
+
+
+
+
+
+
+        {/* -----------------------------------------------  SERVICES IMAGE GRID intro  --------------------------------------------------- */}
+
+        <a href="/services">
+
+          <div className="bloomy">
+
+
+            {/* -----------------------------------------------  SERVICES IMAGE GRID  --------------------------------------------------- */}
+
+            <div style={{ background: "#191a1c" }}>
+
+              <div style={{ background: "#191a1c", height: "8vh", color: "white", textAlign: "center", fontSize: "20px" }}>
+                <span class="tooltiptext">Click To See All Services</span>
+
+              </div>
+
+              <div style={{ height: "15vh", color: "whitesmoke", justifyContent: "center", display: "flex" }}>
+                <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
+                  <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
+                  <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
+                    <h2 style={{ paddingLeft: "10px" }}>Insulation</h2>
+                    <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
+                      Asbestos, lead, and mold abatement and remediation services.
                 </p>
-              </div>
-            </div>
+                  </div>
+                </div>
 
-            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
-              <img style={{ width: "20%", display: "inline-block" }} src={insulation} />
-              <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
-                <h2 style={{ paddingLeft: "10px" }}>Construction</h2>
-                <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
-                  Asbestos, lead, and mold abatement and remediation services.
+                <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
+                  <img style={{ width: "20%", display: "inline-block" }} src={insulation} />
+                  <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
+                    <h2 style={{ paddingLeft: "10px" }}>Construction</h2>
+                    <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
+                      Asbestos, lead, and mold abatement and remediation services.
                 </p>
-              </div>
-            </div>
+                  </div>
+                </div>
 
-            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
-              <img style={{ width: "20%", display: "inline-block" }} src={consulting} />
-              <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
-                <h2 style={{ paddingLeft: "10px" }}>Insulation</h2>
-                <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
-                  Asbestos, lead, and mold abatement and remediation services.
+                <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
+                  <img style={{ width: "20%", display: "inline-block" }} src={consulting} />
+                  <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
+                    <h2 style={{ paddingLeft: "10px" }}>Insulation</h2>
+                    <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
+                      Asbestos, lead, and mold abatement and remediation services.
                 </p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
 
-          <div style={{ background: "#191a1c", height: "2vh" }}></div>
-          {/* -----------------------------------------------------------------VVV  2ND ROW  VVV------------------------------------------------------------------------------------- */}
+              <div style={{ background: "#191a1c", height: "2vh" }}></div>
 
-          <div style={{ height: "15vh", color: "whitesmoke", justifyContent: "center", display: "flex" }}>
 
-            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
-              <img style={{ width: "20%", display: "inline-block" }} src={safety} />
-              <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
-                <h2 style={{ paddingLeft: "10px" }}>Demolition</h2>
-                <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
-                  Asbestos, lead, and mold abatement and remediation services.
+              {/* --------------------------------------------------VVV  2ND ROW  VVV------------------------------------------------------------ */}
+
+              <div style={{ height: "15vh", color: "whitesmoke", justifyContent: "center", display: "flex" }}>
+
+                <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
+                  <img style={{ width: "20%", display: "inline-block" }} src={safety} />
+                  <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
+                    <h2 style={{ paddingLeft: "10px" }}>Demolition</h2>
+                    <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
+                      Asbestos, lead, and mold abatement and remediation services.
               </p>
-              </div>
-            </div>
-            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
-              <img style={{ width: "20%", display: "inline-block" }} src={truck} />
-              <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
-                <h2 style={{ paddingLeft: "10px" }}>Carting</h2>
-                <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
-                  Asbestos, lead, and mold abatement and remediation services.
+                  </div>
+                </div>
+                <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
+                  <img style={{ width: "20%", display: "inline-block" }} src={truck} />
+                  <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
+                    <h2 style={{ paddingLeft: "10px" }}>Carting</h2>
+                    <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
+                      Asbestos, lead, and mold abatement and remediation services.
               </p>
-              </div>
-            </div>
-            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
-              <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
-              <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
-                <h2 style={{ paddingLeft: "10px" }}>Consulting</h2>
-                <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
-                  Asbestos, lead, and mold abatement and remediation services.
+                  </div>
+                </div>
+                <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
+                  <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
+                  <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
+                    <h2 style={{ paddingLeft: "10px" }}>Consulting</h2>
+                    <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
+                      Asbestos, lead, and mold abatement and remediation services.
               </p>
+                  </div>
+                </div>
+
               </div>
+
+              <div style={{ background: "#191a1c", height: "8vh" }}></div>
+
             </div>
+            {/* ----------------------------------------------------------------------------------------------------------------------------- */}
 
           </div>
 
-          <div style={{ background: "#191a1c", height: "8vh" }}></div>
-
-        </div>
-        {/* ------------------------------------------------------------------------------------------------------------------------------------------------------ */}
+        </a>
 
 
 
 
-
-
-        <br />
-        <br />
-        {/* ------------------------------------------------------------------------  6 BOX  -------------------------------------------------------------------- */}
-
-        <div className="services" style={{ background: "red", height: "80vh" }}>
-
-          <div style={{ outline: "5px solid yellow", height: "50%" }}>
-            <div style={{ background: "green", width: "33.33%", height: "100%", float: "left" }}>
-              <h1 style={{ textAlign: "center" }}>
-                Mechanical Insulation
-              </h1>
-            </div>
-            <div style={{ background: "yellow", width: "33.34%", height: "100%", float: "left" }}>
-              <h1 style={{ textAlign: "center" }}>
-                Steam Piping Systems
-              </h1>
-            </div>
-            <div style={{ background: "white", width: "33.33%", height: "100%", float: "left" }}>
-              <h1 style={{ textAlign: "center" }}>
-                Chilled Water Systems
-              </h1>
-            </div>
-          </div>
-
-
-          <div style={{ outline: "5px solid blue", height: "50%" }}>
-            <div style={{ background: "black", width: "33.33%", height: "100%", float: "left" }}>
-              <h1 style={{ textAlign: "center" }}>
-                Hot and Cold Water Piping
-              </h1>
-            </div>
-            <div style={{ background: "white", width: "33.34%", height: "100%", float: "left" }}>
-              <h1 style={{ textAlign: "center" }}>
-                Pump Boxes
-              </h1>
-            </div>
-            <div style={{ background: "black", width: "33.33%", height: "100%", float: "left" }}>
-              <h1 style={{ textAlign: "center" }}>
-                Boiler Systems
-              </h1>
-            </div>
-          </div>
-
-        </div>
-
-        {/* -----------------------------------------------------------------   CONTACT   ----------------------------------------------------------------------- */}
-        <br />
-        <br />
-
-
-        {/* <div className="projects" style={{ background: "yellow", height: "30vh" }}> */}
-
-          <Gallery />
-
-
-
-
-
-
-        {/* </div> */}
-
-
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-
-        {/* --------------------------------------------------------------------------------------------------------------------------------------- */}
 
       </div>
 

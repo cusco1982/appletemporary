@@ -1,0 +1,11 @@
+.Card7 {
+    width: auto ;
+    max-height: 1100px;
+    background: red;
+    color: #fff;
+    font-size: 30px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
